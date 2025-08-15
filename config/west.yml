@@ -2,10 +2,15 @@ manifest:
   remotes:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
+    - name: rooster_long
+      url-base: https://github.com/Sielu-Rooster/nice-view-mod
   projects:
     - name: zmk
       remote: zmkfirmware
       revision: main
       import: app/west.yml
+    - name: new_rooster
+      remote: rooster_long
+      revision: main
   self:
     path: config
