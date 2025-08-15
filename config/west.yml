@@ -3,7 +3,7 @@ manifest:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
     - name: rooster_long
-      url-base: https://github.com/Sielu-Rooster/nice-view-mod
+      url-base: https://github.com/Sielu-Rooster
   projects:
     - name: zmk
       remote: zmkfirmware
